@@ -1,5 +1,3 @@
-
-
 const nsq = require('nsqjs')
 
 const reader = new nsq.Reader('instantloan__apply_loan', 'instantloan__apply', {
