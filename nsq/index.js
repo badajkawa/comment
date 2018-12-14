@@ -1,6 +1,7 @@
 const nsq = require('nsqjs')
 const config = require('../files/config/main.config')
 
+
 const reader = new nsq.Reader('instantloan__apply_loan', 'instantloan__apply',config.nsq)
 
 
