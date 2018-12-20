@@ -11,4 +11,9 @@ router.get('/hello', function(req, res, next) {
   res.send('hello');
 });
 
+
+router.get('/cuy', function(req, res, next) {
+  res.send('cuy');
+});
+
 module.exports = router;
