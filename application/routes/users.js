@@ -16,4 +16,9 @@ router.get('/hai', function(req, res, next) {
   res.send('hai');
 });
 
+
+router.get('/huu', function(req, res, next) {
+  res.send('huu');
+});
+
 module.exports = router;
