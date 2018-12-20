@@ -9,7 +9,7 @@ var usersRouter = require('./application/routes/users');
 var commentRouter = require('./application/routes/commentRoute');
 
 
-var indexNsq = require('./nsq/index');
+//var indexNsq = require('./nsq/index');
 
 var app = express();
 
